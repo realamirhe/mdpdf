@@ -1,5 +1,4 @@
 # mdpdf
-<img width="574" height="474" alt="image" src="https://github.com/user-attachments/assets/1dfb8a7e-2e75-4093-a40f-590baa31a04a" />
 
 
 Convert Markdown notes into PDFs locally, with Persian and English typography.
@@ -8,9 +7,7 @@ Built for notes exported from Bear: a small tool for anyone who does not want to
 buy Bear Pro just to generate PDFs. It also works with standalone Markdown files.
 Conversion runs offline, without a browser or a background service.
 
-<!-- Preview placeholder: add docs/preview.png and replace the line below with
-![A note rendered with mdpdf](docs/preview.png) -->
-*PDF preview coming soon.*
+<img width="574" height="474" alt="image" src="https://github.com/user-attachments/assets/1dfb8a7e-2e75-4093-a40f-590baa31a04a" />
 
 ## Getting started
 
