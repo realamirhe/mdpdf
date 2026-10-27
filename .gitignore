@@ -1,0 +1,21 @@
+# Rust build output; keep Cargo.lock for reproducible CLI builds.
+/target/
+/mdpdf
+/mdpdf.exe
+
+# Generated PDFs; retain any PDF assets shipped by dependencies.
+*.pdf
+!/vendor/**/*.pdf
+/output/
+/tmp/
+.mdpdf-output-*
+
+# Local shell configuration is not part of the distribution.
+/alias.bash
+
+# macOS metadata and editor temporary files.
+.DS_Store
+._*
+*.swp
+*.swo
+*~

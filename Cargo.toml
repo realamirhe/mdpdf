@@ -1,0 +1,22 @@
+[package]
+name = "mdpdf"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Offline Markdown to PDF conversion with Persian and English typography"
+readme = "README.md"
+keywords = ["markdown", "pdf", "typst", "persian", "cli"]
+categories = ["command-line-utilities", "text-processing"]
+
+[[bin]]
+name = "mdpdf"
+path = "src/main.rs"
+
+[dependencies]
+base64 = "0.22"
+html-escape = "0.2"
+percent-encoding = "2.3"
+pulldown-cmark = "0.12"
+regex = "1.11"
+serde_json = "1.0"
+tempfile = "3.14"
